@@ -1,0 +1,37 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.users{
+    display: flex;
+    color: wheat;
+    font-size: 20px;
+    flex-direction: row;
+}
+
+.users__card{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 10px;
+    border-radius: 15px;
+    width: 150px;
+    border: 3px solid wheat;
+    margin-left: 20px;
+    transition: 1s;
+}
+a:link{
+    text-decoration: none!important;
+  }
+
+.link{
+    color: white;
+  }
+
+  .users__card:hover{
+    transform:scale(1.25);
+}

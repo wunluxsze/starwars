@@ -1,0 +1,18 @@
+.text{
+    color: wheat;
+}
+.title{
+    margin-left: 10px;
+    color: wheat;
+    width: 100%;
+    
+}
+.wrapper{
+
+}
+.titles{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-direction: column;
+}

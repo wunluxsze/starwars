@@ -1,0 +1,26 @@
+.films{
+    display: flex;
+    color: wheat;
+    font-size: 20px;
+    flex-direction: row;
+}
+
+.films__card{
+    display: flex;
+    flex-direction: row;
+    padding: 20px 20px;
+    border-radius: 15px;
+    width: 150px;
+    border: 3px solid white;
+    margin-left: 35px;
+    transition: 1s;
+}
+.films__card:hover{
+    transform:scale(1.25);
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    width: 1440px;
+}
